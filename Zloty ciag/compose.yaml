@@ -1,0 +1,6 @@
+services:
+  www23:
+    image: www23
+    build:
+      context: .
+      dockerfile: ./Dockerfile
